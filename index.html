@@ -1,37 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Order Summary Card</title>
 
-  Order Summary
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <article class="card">
+        <div class="image1"></div>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+        <div class="content">
+          <h2 class="title">Order Summary</h2>
+          <p class="description">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="container2">
+            <div class="image2">
+              <img src="images/icon-music.svg" />
+            </div>
+            <div class="pricebox">
+              <p class="annualprice">Annual Plan</p>
+              <p class="price">$59.99/year</p>
+            </div>
+            <div class="change">
+              <a href="#">Change</a>
+            </div>
+          </div>
+          <button class="button">Proceed to Payment</button>
 
-  Annual Plan
-  $59.99/year
+          <a href="#" class="cancelOrder">Cancel Order</a>
+        </div>
+      </article>
+    </main>
 
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer class="attribution">
+      <p>
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/YOUR_PROFILE"
+          >Your Name</a
+        >.
+      </p>
+    </footer>
+  </body>
 </html>

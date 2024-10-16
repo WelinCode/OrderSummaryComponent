@@ -1,36 +1,36 @@
-# Front-end Style Guide
+# Guía de Estilo para Front-end
 
-## Layout
+## Diseño
 
-The designs were created to the following widths:
+Los diseños se crearon para los siguientes anchos:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Móvil: 375px
+- Escritorio: 1440px
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+> 💡 Estos son solo los tamaños de diseño. Asegúrate de que el contenido sea receptivo y cumpla con los requisitos de WCAG probando el rango completo de tamaños de pantalla, desde 320px hasta pantallas grandes.
 
-## Colors
+## Colores
 
-### Primary
+### Primarios
 
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
+- Azul pálido: hsl(225, 100%, 94%)
+- Azul brillante: hsl(245, 75%, 52%)
 
-### Neutral
+### Neutros
 
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
+- Azul muy pálido: hsl(225, 100%, 98%)
+- Azul desaturado: hsl(224, 23%, 55%)
+- Azul oscuro: hsl(223, 47%, 23%)
 
-## Typography
+## Tipografía
 
-### Body Copy
+### Texto del cuerpo
 
-- Font size (paragraph): 16px
+- Tamaño de fuente (párrafo): 16px
 
-### Font
+### Fuente
 
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900
+- Familia: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Pesos: 500, 700, 900
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+> 💎 [Actualízate a Pro](https://www.frontendmentor.io/pro?ref=style-guide) para acceder a archivos de diseño y ver todos los detalles de diseño, además de obtener experiencia práctica utilizando un flujo de trabajo profesional con herramientas como Figma.
